@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'pt_serifbold';
+    src: url('fonts/ptserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serifbold_italic';
+    src: url('fonts/ptserif-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serifitalic';
+    src: url('fonts/ptserif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serif';
+    src: url('fonts/ptserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('fonts/MuseoSansCyrl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MuseoSansCyrl_0';
+    src: url('fonts/MuseoSansCyrl_0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MuseoSansCyrl_1';
+    src: url('MuseoSansCyrl_1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MuseoSansCyrl_2';
+    src: url('fonts/MuseoSansCyrl_2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'MuseoSansCyrl_3';
+    src: url('fonts/MuseoSansCyrl_3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
