@@ -86,22 +86,26 @@ body {
   height: 83%;
 }
 
+.texts {
+  display: inline-block;
+}
+
 .images {
   float: right;
-  display: flex;
-  margin: -22% -7% 0px 0px;
+  display: inline-block;
+  margin: 0 0 0 0;
 }
 
 .main__house {
-  margin: 3px -1px -2px 0px;
+  margin: 0 0 0 0;
 }
 
 .main__gates {
-  margin: 23px -35px 21px 34px;
+  margin: 0 0 0 0;
 }
 
 .main__trees {
-  margin: 23px -67px 21px 65px;
+  margin: 0 0 0 0;
 }
 
 .main__title {
