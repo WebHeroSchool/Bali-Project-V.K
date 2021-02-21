@@ -81,32 +81,35 @@ body {
 }
 
 .main {
-  margin: auto;
+  display: flex;
   width: 83%;
   height: 83%;
-}
-
-.texts {
-  display: inline-block;
+  margin: auto;
 }
 
 .images {
-  float: right;
-  display: inline-block;
-  margin: 0 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 385px;
+  right: -21px;
 }
 
-.main__house {
-  margin: 0 0 0 0;
+.img {
+ margin-right: 8px;
+  padding: 0px 25px 0px 0px;
 }
 
-.main__gates {
-  margin: 0 0 0 0;
+.img:first-child {
+  margin: 3px 7px 0px 0px;
 }
 
-.main__trees {
-  margin: 0 0 0 0;
-}
+.img:last-child {
+  margin: 0px 2px 0px 0px;
+  padding: 0px 0px 0px 0px;
+} 
+  
 
 .main__title {
   position: relative;
@@ -115,6 +118,9 @@ body {
   letter-spacing: 12px;
   opacity: .5;
   color: #F8EEE4;
+  line-height: 349px;
+  display: flex;
+  align-items: center;
 }
 
 .main__subtitle {
@@ -123,14 +129,17 @@ body {
   margin: -79px 0px 78px 126px;
   letter-spacing: 3px;
   color: #F8EEE4;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
 }
 
 .main__descr {
   font: bold 22px/2% MuseoSansCyrl, arial, helvetica, sans-serif;
   line-height: 26px;
   color: #F8EEE4;
-  width: 35%;
-  margin: 15px 5px 0px 58px;
+  width: 40%;
+  margin: 14px 5px 0px 58px;
   letter-spacing: 0.5px;
 }
 
@@ -143,6 +152,7 @@ body {
     background: #D4BEA3;
     display: inline-block;
     border-radius: 26px;
+    letter-spacing: 0.3px
 }
 
 .main__button:hover {
