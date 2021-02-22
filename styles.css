@@ -90,27 +90,29 @@ body {
 .images {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  top: 385px;
-  right: -21px;
+  align-items: baseline;
+  right: 0px;
+  top: 173px;
+  left: 183px;
+  position: relative;
+  width: 14%;
 }
 
 .img {
- margin-right: 8px;
-  padding: 0px 25px 0px 0px;
+  margin-right: 6px;
+  padding: 20px 26px 22px 0px;
 }
 
 .img:first-child {
-  margin: 3px 7px 0px 0px;
+  margin: 0px 5px 0px 0px;
+  padding: 1px 25px 0 0;
 }
 
 .img:last-child {
-  margin: 0px 2px 0px 0px;
-  padding: 0px 0px 0px 0px;
-} 
+  margin: 24px 4px 0px 1px;
+  padding: 0px 0 22px 0px;
+}
   
-
 .main__title {
   position: relative;
   font: bold 280px/125% pt_serif, arial, helvetica, sans-serif;;
