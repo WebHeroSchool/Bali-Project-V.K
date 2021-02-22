@@ -42,23 +42,25 @@ body {
   line-height: 26px;
   align-items: center;
   color: #F8EEE4;
-  width: 29%;
+  width: 32%;
   position: absolute;
-  padding-left: 59%;
+  padding-left: 58%;
   padding-top: 106px;
 }
 
 .menu__element {
-  padding: 0 19px;
+  padding: 0px 15px 0px 24px;
   font: bold 23px/19px MuseoSansCyrl, arial, helvetica, sans-serif;
   color: #F8EEE4;
   text-decoration: none;
   cursor: pointer;
-  position:relative;
+  position: relative;
+  letter-spacing: 0.2px;
 }
 
 .menu__element:last-child {
-  padding-right: 20px;
+  padding-right: 0px;
+  padding-left: 16px;
 }
 
 .menu__element:hover {
@@ -82,8 +84,7 @@ body {
 
 .main {
   display: flex;
-  width: 83%;
-  height: 83%;
+  height: 84%;
   margin: auto;
 }
 
@@ -95,7 +96,7 @@ body {
   top: 173px;
   left: 183px;
   position: relative;
-  width: 14%;
+  width: 9.3%;
 }
 
 .img {
@@ -115,8 +116,9 @@ body {
   
 .main__title {
   position: relative;
-  font: bold 280px/125% pt_serif, arial, helvetica, sans-serif;;
+  font: 900 280px pt_serif, arial, helvetica, sans-serif;;
   margin: 79px 0px 0px 43px;
+  padding: 0px 0px 0px 100px;
   letter-spacing: 12px;
   opacity: .5;
   color: #F8EEE4;
@@ -128,7 +130,8 @@ body {
 .main__subtitle {
   position: absolute;
   font: bold 98px/20% pt_serif, arial, helvetica, sans-serif;
-  margin: -79px 0px 78px 126px;
+  margin: -84px 0px 82px 193px;
+  padding: 3px 0 0 96px;
   letter-spacing: 3px;
   color: #F8EEE4;
   line-height: 19px;
@@ -140,8 +143,9 @@ body {
   font: bold 22px/2% MuseoSansCyrl, arial, helvetica, sans-serif;
   line-height: 26px;
   color: #F8EEE4;
-  width: 40%;
-  margin: 14px 5px 0px 58px;
+  width: 38%;
+  margin: 13px 3px 0px 130px;
+  padding: 0 0 0 91px;
   letter-spacing: 0.5px;
 }
 
@@ -150,7 +154,7 @@ body {
     color: #FFF;
     text-decoration: none;
     padding: 17px 94px 15px 94px;
-    margin: 37px 0px 0px 58px;
+    margin: 39px 0px 0px 219px;
     background: #D4BEA3;
     display: inline-block;
     border-radius: 26px;
