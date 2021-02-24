@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 
@@ -42,7 +44,7 @@ body {
   line-height: 26px;
   align-items: center;
   color: #F8EEE4;
-  width: 32%;
+  width: 33%;
   position: absolute;
   padding-left: 58%;
   padding-top: 106px;
@@ -59,7 +61,7 @@ body {
 }
 
 .menu__element:last-child {
-  padding-right: 0px;
+  padding-right: 16px;
   padding-left: 16px;
 }
 
