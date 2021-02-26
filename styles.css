@@ -128,7 +128,7 @@ body {
   left: 208px;
 }
 
-.main__title_description {
+.main__title_subtitle {
   overflow: hidden;
   font-size: 98px;
   margin: 0px;
@@ -138,7 +138,7 @@ body {
   letter-spacing: 4.5px;
 }
 
-.main__descr {
+.main__description {
   overflow: hidden;
   position: relative;
   font: bold 22px MuseoSansCyrl, arial, helvetica, sans-serif;
