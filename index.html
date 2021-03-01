@@ -1,49 +1,64 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      World of travel
-    </title>
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    World of travel
+  </title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <div class="wrapper">
+  <div class="wrapper">
     <header class="header">
-        <div class="logo"></div>
-            <nav class="menu">
-                <a class="menu__element" href="#">Start</a>
-                <a class="menu__element" href="#">Services</a>
-                <a class="menu__element" href="#">About</a>
-                <a class="menu__element" href="#">Blog</a>
-                <a class="menu__element" href="#">Contact us</a>
-            </nav>
+      <div class="logo"></div>
+      <nav class="menu">
+        <a class="menu__element" href="#">Start</a>
+        <a class="menu__element" href="#">Services</a>
+        <a class="menu__element" href="#">About</a>
+        <a class="menu__element" href="#">Blog</a>
+        <a class="menu__element" href="#">Contact us</a>
+      </nav>
+      <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox"/>
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+          <nav class="navmenu">
+            <ul class="menu__box">
+              <li><a class="navmenu__element" href="#">start</a></li>
+              <li><a class="navmenu__element" href="#">services</a></li>
+              <li><a class="navmenu__element" href="#">about</a></li>
+              <li><a class="navmenu__element" href="#">blog</a></li>
+              <li><a class="navmenu__element" href="#">contact us</a></li>
+            </ul>
+          </nav>
+      </div>
     </header>
-  <section class="main">
+    <section class="main">
       <div class="texts">
         <div class="main__title">
-            <h1 class="main__title_main">
-                Bali
-            </h1>
-            <h5 class="main__title_subtitle">
-                Indonesia
-            </h5>
+          <h1 class="main__title_main">
+            Bali
+          </h1>
+          <h5 class="main__title_subtitle">
+            <span class="title__rainbow">Indonesia</span>
+          </h5>
         </div>
-            <p class="main__description">
-                Best Bali travel guide with great tips.
-                Book hotels and villas, explore the best spas, events, Bali temples, scuba centers, and activities. </p>
-            <a class="main__button" href="#">Book travel</a>
-        </div>
-       <div class="images">
-              <img class="img" src="img/imghouse.png" alt="house" />
-              <img class="img" src="img/imggates.png" alt="gates" />
-              <img class="img" src="img/imgtrees.png" alt="trees" />
-       </div>
-  </section>
- </div>
+        <p class="main__description">
+          Best Bali travel guide with great tips.
+          Book hotels and villas, explore the best spas, events, Bali temples, scuba centers, and activities. </p>
+        <a class="main__button" href="#">Book travel</a>
+      </div>
+      <div class="images">
+        <img class="img" src="img/imghouse.png" alt="house" />
+        <img class="img" src="img/imggates.png" alt="gates" />
+        <img class="img" src="img/imgtrees.png" alt="trees" />
+      </div>
+    </section>
+  </div>
 </body>
-    
+
 </html>
