@@ -174,7 +174,7 @@ body {
   margin-right: 0;
 }
 
-@media  screen and (min-width: 1920px) {
+@media  screen and (min-width: 1851px) {
   .menu {
     display: flex;
     align-items: center;
